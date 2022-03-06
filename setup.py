@@ -1,5 +1,4 @@
-import setuptools
-
+import setuptools  # type: ignore
 
 setuptools.setup(
     name="package_name",
@@ -19,5 +18,3 @@ setuptools.setup(
     install_requires=['matplotlib>=3', 'numpy'],
     python_requires=">=3.6",
 )
-
-# type: ignore
