@@ -13,9 +13,9 @@ project_name
 │       └── index.rst
 ├── examples
 │   └── example.py
-├── src
-│   └── package_name
-│       └── __init__.py
+├── package_name
+│   └── __init__.py
+│   └── main.py
 ├── tests
 │   └── __init__.py
 ├── .gitignore
