@@ -5,12 +5,16 @@ Let us start with the folder layout. Your project directory should be structured
 
 ```
 project_name
+├── .github
+│   ├── workflows
+│       └── main.yml
+├── README.assets
 ├── docs
 │   ├── make.bat
 │   ├── Makefile
-│   └── source
-│       ├── conf.py
-│       └── index.rst
+│   ├── README.md
+│   ├── conf.py
+│   └── index.rst
 ├── examples
 │   └── example.py
 ├── package_name
@@ -19,13 +23,12 @@ project_name
 ├── tests
 │   └── __init__.py
 ├── .gitignore
+├── .readthedocs.yml
 ├── LICENSE.txt
 ├── MANIFEST.in
-├── README.rst
+├── README.md
 ├── requirements.txt
-├── setup.cfg
-├── setup.py
-└── tox.ini
+└── setup.py
 ```
 
 Now, this is a lot of files, let us look at these to understand what the different components are and why they are necessary in a Python project.
