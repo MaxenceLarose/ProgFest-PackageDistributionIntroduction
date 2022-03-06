@@ -1,20 +1,20 @@
-import setuptools  # type: ignore
+import setuptools
 
 setuptools.setup(
-    name="package_name",
+    name="polygon",
     version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
+    author="Maxence Larose",
+    author_email="maxence.larose.1@ulaval.ca",
     description="A small example package",
     long_description=open("README.md", "r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/MaxenceLarose/PackageDistributionIntroduction",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     packages=setuptools.find_packages(),
-    install_requires=['matplotlib>=3', 'numpy'],
     python_requires=">=3.6",
+    # install_requires=['matplotlib>=3', 'numpy'],
 )

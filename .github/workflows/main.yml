@@ -3,6 +3,9 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   python-lint:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10"]
     name: CI workflow
     steps:
     - name: checkout source repo
@@ -13,5 +16,9 @@ jobs:
       with:
         python-root: '.'
         flake8-flags: ''
-        mypy-flags: ''
+        mypy-flags: '--ignore-missing-imports'
         fail-on-isort: false
+
+    - name: Test with unittest
+      run: |
+        python -m unittest discover tests
