@@ -19,3 +19,5 @@ setuptools.setup(
     install_requires=['matplotlib>=3', 'numpy'],
     python_requires=">=3.6",
 )
+
+# type: ignore
