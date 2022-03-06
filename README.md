@@ -6,9 +6,8 @@ Let us start with the folder layout. Your project directory should be structured
 ```
 project_name
 ├── .github
-│   ├── workflows
+│   └── workflows
 │       └── main.yml
-├── README.assets
 ├── docs
 │   ├── make.bat
 │   ├── Makefile
