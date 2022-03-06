@@ -8,7 +8,6 @@ project_name
 ├── .github
 │   └── workflows
 │       └── main.yml
-├── README.assets
 ├── docs
 │   ├── make.bat
 │   ├── Makefile
