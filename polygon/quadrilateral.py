@@ -1,6 +1,6 @@
 
 
-class Quadrilateral:
+class Quadrilateral(object):
     def __init__(self, width: float, height: float):
         self._width = width
         self._height = height
@@ -14,12 +14,12 @@ class Quadrilateral:
         return self._height
 
     @width.setter
-    def width(self, width: float):
-        self._width = width
+    def width(self, w: float):
+        self._width = w
 
     @height.setter
-    def height(self, height: float):
-        self._height = height
+    def height(self, h: float):
+        self._height = h
 
     @property
     def area(self) -> float:
