@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="polygon",
+    name="ProgFestPDI_test",
     version="0.0.1",
     author="Maxence Larose",
     author_email="maxence.larose.1@ulaval.ca",
