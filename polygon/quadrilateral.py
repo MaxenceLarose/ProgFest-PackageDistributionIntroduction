@@ -6,7 +6,7 @@ class Quadrilateral(object):
         self._height = height
 
     @property
-    def width(self) -> str:
+    def width(self) -> float:
         return self._width
 
     @property
