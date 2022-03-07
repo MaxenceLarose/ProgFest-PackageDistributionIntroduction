@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="ProgFestPDI_test",
-    version="0.0.1",
+    version="0.0.2",
     author="Maxence Larose",
     author_email="maxence.larose.1@ulaval.ca",
     description="A small example package",
