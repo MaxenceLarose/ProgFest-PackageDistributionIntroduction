@@ -1,6 +1,12 @@
 # Package Distribution Introduction
 Package used as an exemple for my presentation at ProgFest 2022 Ulaval.
 
+## Useful ressources
+
+- [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+- [Python Project Structure](https://github.com/yngvem/python-project-structure)
+
+
 ## Useful commands to publish a package on PyPI or TestPyPI
 
 ### Create the package source distribution
