@@ -1,5 +1,5 @@
 # Package Distribution Introduction
-Example package used for my presentation at ProgFest.
+Package used as an exemple for my presentation at ProgFest 2022 Ulaval.
 
 ```
 python -m build
