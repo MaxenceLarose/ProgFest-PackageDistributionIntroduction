@@ -3,7 +3,7 @@ Package used as an exemple for my presentation at ProgFest 2022 Ulaval.
 
 ## Useful commands to publish a package on PyPI or TestPyPI
 
-### Create source distribution
+### Create the package source distribution
 
 ```
 pip install twine wheel build
