@@ -1,0 +1,26 @@
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  python-lint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        platform: [ubuntu-latest, macOS-latest, windows-latest]
+        python-version: ["3.8", "3.9", "3.10"]
+    name: CI workflow
+    steps:
+    - name: checkout source repo
+      uses: actions/checkout@v2
+
+    - name: linting
+      uses: alexanderdamiani/pylinter@v1.4.2
+      with:
+        python-root: '.'
+        flake8-flags: ''
+        mypy-flags: '--ignore-missing-imports'
+        fail-on-isort: false
+
+    - name: Test with unittest
+      run: |
+        pip install coverage
+        coverage run -m unittest discover tests && coverage report
