@@ -32,4 +32,3 @@ class Quadrilateral(object):
         pic = '*' * round(self.width) + '\n'
         pic = pic * round(self.height)
         return pic
-
