@@ -1,5 +1,5 @@
 # ProgFest : Package Distribution Introduction
-Package used as an exemple for my presentation at ProgFest 2022 Ulaval.
+Package used as an exemple for my presentation at ProgFest 2022 Ulaval. The presented document is available [here](https://github.com/MaxenceLarose/ProgFest-PackageDistributionIntroduction/blob/main/DistributingPythonModules.pdf).
 
 ## Useful ressources
 - [Distributing Python Modules](https://docs.python.org/3/distributing/index.html)
