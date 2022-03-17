@@ -2,7 +2,7 @@
 Package used as an exemple for my presentation at ProgFest 2022 Ulaval.
 
 ## Useful ressources
-
+- [Distributing Python Modules](https://docs.python.org/3/distributing/index.html)
 - [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 - [Python Project Structure](https://github.com/yngvem/python-project-structure)
 
