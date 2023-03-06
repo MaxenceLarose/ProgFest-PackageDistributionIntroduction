@@ -1,5 +1,5 @@
-from polygon.rectangle import Rectangle
-from polygon.square import Square
+from polygon import Rectangle
+from polygon import Square
 
 
 def example_code() -> None:
